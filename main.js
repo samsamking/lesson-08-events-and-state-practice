@@ -36,11 +36,5 @@ Here are some bonus tasks to push your DOM knowledge!
 	
   function render(data, into) {
 	  into.innerHTML +=`<li class="list-thing">${data.content}</li>`;
-		/*into = ul
-		add innerHTML of ul
-		return into += `
-		<li>${data.todo}</li>
-		`*/
-		
   }
 })()
